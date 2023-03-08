@@ -14,10 +14,11 @@ footer {
       border-left: 2px solid $color4;
       border-right: 2px solid $color4;
       > img {
-        width: 60px;
-        height: 60px;
-        border-radius: 60%;
-        object-fit: fill;
+        width: 80px;
+        height: 90px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: center top;
       }
   
       > h2 {
@@ -36,6 +37,7 @@ footer {
       svg {
         font-size: 1.5rem;
         color: $color4;
+        margin: 0.3rem;
         &:hover {
           color: $color3;
         }
