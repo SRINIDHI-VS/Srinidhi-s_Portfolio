@@ -59,7 +59,7 @@ const Home = ({ ratio }) => {
               }}
             />
             <div>
-              <a href="Srinidhi's_Resume.pdf" download="Srinidhi's_Resume">Get Resume</a>
+              <a href="SRINIDHI_Resume.pdf" download="Srinidhi's_Resume">Get Resume</a>
               <a href="#work">
                 Projects
                 <BsArrowUpRight />
