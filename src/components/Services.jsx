@@ -1,8 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FaReact, FaHtml5, FaCss3, FaGithub } from "react-icons/fa";
+import { FaReact, FaHtml5, FaCss3, FaGithub, FaAws } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import { SiVercel, SiTailwindcss } from "react-icons/si";
+import { SiVercel, SiTailwindcss, SiRedux, SiJest } from "react-icons/si";
 
 const Services = () => {
   const animations = {
@@ -98,6 +98,30 @@ const Services = () => {
           initial={animations.four}
         >
           <SiTailwindcss />
+        </motion.div>
+        <motion.div
+          className="serviceBox3"
+          whileInView={animations.whileInView}
+          initial={animations.four}
+        >
+          <FaAws />
+        </motion.div>
+        <motion.div
+          className="serviceBox3"
+          whileInView={animations.whileInView}
+          initial={animations.four}
+        >
+          <SiRedux />
+        </motion.div>
+        <motion.div
+          className="serviceBox3"
+          whileInView={animations.whileInView}
+          initial={animations.twoAndThree}
+          transition={{
+            delay: 0.2,
+          }}
+        >
+          <SiJest />
         </motion.div>
       </section>
     </div>

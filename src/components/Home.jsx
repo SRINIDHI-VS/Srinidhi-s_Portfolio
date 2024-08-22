@@ -49,7 +49,7 @@ const Home = ({ ratio }) => {
               options={{
                 strings: [
                   "Front End Developer",
-                  "Front End Enginner",
+                  "Front End Engineer",
                   "Full Stack Developer",
                   "Javascript Developer",
                   "ReactJs Developer",
@@ -61,7 +61,7 @@ const Home = ({ ratio }) => {
               }}
             />
             <div>
-              <a href="SRINIDHI_Resume.pdf" download="Srinidhi's_Resume">Get Resume</a>
+              <a href="SRINIDHI_Resume.pdf" download="Srinidhi's_Resume_2024">Get Resume</a>
               <a href="#work">
                 Projects
                 <BsArrowUpRight />
