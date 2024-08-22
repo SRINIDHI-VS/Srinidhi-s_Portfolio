@@ -1,9 +1,14 @@
 {
-    "projects": [
-      {
-        "date": "12/12/2020",
-        "title": "Cognizant Technology Solutions"
-      }
-    ]
-  }
-  
+  "projects": [
+    {
+      "startDate": "17/04/2023",
+      "endDate":"Currently Wworking",
+      "title": "Infosys"
+    },
+    {
+      "startDate": "12/12/2020",
+      "endDtate":"12/12/2022",
+      "title": "Cognizant Technology Solutions"
+    }
+  ]
+}

@@ -8,7 +8,8 @@ const Experience = () => {
         {data.projects.map((item, index) => (
           <ExperienceItem
             heading={item.title}
-            text={item.date}
+            startDate={item.startDate}
+            endDate={item.endDate}
             index={index}
             key={item.title}
           />
@@ -18,7 +19,7 @@ const Experience = () => {
   );
 };
 
-const ExperienceItem = ({ heading, text, index }) => (
+const ExperienceItem = ({ heading, startDate, endDate, index }) => (
   <div
     className={`timelineItem ${
       index % 2 === 0 ? "leftTimeline" : "rightTimeline"
@@ -26,7 +27,7 @@ const ExperienceItem = ({ heading, text, index }) => (
   >
     <div>
       <h2>{heading}</h2>
-      <p>{text}</p>
+      <p>{`${startDate} - ${endDate}`}</p>
     </div>
   </div>
 );

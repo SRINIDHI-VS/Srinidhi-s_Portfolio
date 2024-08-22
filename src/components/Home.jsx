@@ -49,6 +49,8 @@ const Home = ({ ratio }) => {
               options={{
                 strings: [
                   "Front End Developer",
+                  "Front End Enginner",
+                  "Full Stack Developer",
                   "Javascript Developer",
                   "ReactJs Developer",
                 ],
